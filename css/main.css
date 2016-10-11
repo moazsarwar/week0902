@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.4 'Open Sans', cursive, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, div, img {
+  padding: 0;
+  margin: 0;
+}
+
+.banner-wrapper {
+  width: 100%;
+  position: relative;
+  text-align: left;
+}
+
+.banner-wrapper>h1 {
+  position: absolute;
+  margin-right: 5%;
+  bottom: 3.5em;
+  font-size: 3rem;
+  color: #fff;
+  left: 10%;
+  background-color: #777;
+}
+
+.banner-wrapper>h3 {
+  position: absolute;
+  margin-right: 5%;
+  bottom: 3em;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.5rem;
+  left: 10%;
+}
+
+.banner-wrapper>img {
+  position: sticky;
+  width: 100%;
+  height: auto;
+}
